@@ -1,0 +1,255 @@
+body {
+  margin: 0;
+  background-color: #e6e6e6;
+}
+
+nav>div {
+  float: left;
+}
+
+
+nav li {
+  text-decoration: none;
+  font-size: 10px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  display: inline;
+
+
+}
+
+.top-navigation {
+top: 0;
+right: 0;
+left: 0;
+z-index: 9999;
+margin: 0;
+height: 50px;
+width: 100%;
+text-align: center;
+display: block;
+}
+
+.liquidgem {
+  float: left;
+
+}
+
+.liquidgem li {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+}
+
+.rightsidenav {
+  float: right;
+
+}
+
+.rightsidenav li {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  text-align: center;
+  height: 90px;
+  font-size: 20px;
+  padding-top: 50px;
+  font-family: font-family: 'Varela Round', sans-serif;
+
+}
+
+.name {
+  color: pink;
+}
+
+h2 {
+  text-align: center;
+  font-size: 10px;
+  padding-bottom: 20px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.sunset img {
+  border-radius: 25px;
+  text-align: center;
+  padding-left: 70px;
+
+}
+
+p  {
+  font-size: 10px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+ .aboutme {
+   text-decoration: none;
+   color: pink;
+   text-align: center;
+   list-style: none;
+   font-family: 'Kaushan Script', cursive;
+   font-size: 20px;
+
+ }
+
+.mywork {
+  text-decoration: none;
+  color: pink;
+  text-align: center;
+  list-style: none;
+font-family: 'Kaushan Script', cursive;
+  font-size: 20px;
+}
+.about-me-paragraph {
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.my-work-paragraph {
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.allboxes {
+  text-align: center;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10   {
+  display: inline-block;
+      width: 15%;
+      height: 75px;
+      margin: 10px;
+      font-family: 'Varela Round', sans-serif;
+
+}
+
+.box1 img, .box2 img, .box3 img, .box4 img, .box5 img, .box6 img, .box7 img, .box8 img, .box9 img, .box10 img   {
+  width: 100%;
+  height: 100%;
+}
+
+
+.thanks {
+  text-align: center;
+  color: pink;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+footer {
+  background-color: #333333;
+  padding-top: 50px;
+
+}
+
+h3 {
+  color: black;
+  font-size: 20px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+h4 {
+  color: pink;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+}
+.leftbottombox {
+  display: inline-block;
+  width: 183%;
+}
+
+
+.container input {
+  display: block;
+  width: 30%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+#message {
+  height: 70px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.fa {
+  color: pink;
+
+}
+
+.socialmediaicons {
+
+  display: inline-block;
+  width: 54%;
+}
+
+.iconbox {
+  float: right;
+}
+
+.fa.fa-facebook-square, .fa.fa-twitter-square, .fa.fa-google-plus-square, .fa.fa-youtube-square {
+  border-radius: 50%;
+}
+
+.send {
+  color: pink;
+  border: none;
+
+}
+
+@media (max-width: 1080px) {
+  .rightsidenav {
+    padding-top: 10px;
+  }
+}
+ @media (max-width: 800px) {
+   h3 {
+     font-size: 14px;
+   }
+
+ }
+
+ @media (max-width:770px) {
+   p {
+     font-size: 9px;
+   }
+ }
+
+ @media (max-width: 420px) {
+  .liquidgem li {
+    font size: 15px;
+  }
+}
+
+@media (max-width:400px) {
+  .allboxes {
+    display: inline-table;
+  }
+
+}
+
+@media (max-width:400px) {
+  .sunset img {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width:400px) {
+  footer {
+    padding-top: 0px;
+  }
+}
